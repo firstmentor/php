@@ -6,3 +6,5 @@ $students = array("vikas","ram","mohit"); //same type of data//
 
 //print_r($students);
 echo $students[0];
+
+
