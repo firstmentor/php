@@ -12,3 +12,7 @@ echo "you are not login";
 
 ?>
 </h1>
+
+<h2>
+	<a href="logout.php" style="float: right;">Logout</a>
+</h2>

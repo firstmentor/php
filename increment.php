@@ -7,4 +7,8 @@ $x = 2;
 echo $x++ . "<br/>";
 
 
-echo $x;
+//echo $x;
+
+$c =++$x + $x-- - $x++ - --$x;
+
+echo $c;

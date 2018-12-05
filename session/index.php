@@ -1,8 +1,6 @@
 <?php
 
 session_start();
-$_SESSION["Uname"] = $_POST['username'];
-
 ?>
 
 
@@ -27,7 +25,7 @@ $_SESSION["Uname"] = $_POST['username'];
 				<td><input type="text" name="Password"></td>
 			</tr>
 			<tr>
-			   <td colspan="2" align="center"><input type="submit" name="" value="login">		
+			   <td colspan="2" align="center"><input type="submit" name="submit" value="login">		
 
 
 
@@ -48,3 +46,13 @@ $_SESSION["Uname"] = $_POST['username'];
 
 </body>
 </html>
+
+
+<?php
+if(isset($_POST['submit'])){
+
+
+$_SESSION["Uname"] = $_POST['username'];
+
+}
+?>
