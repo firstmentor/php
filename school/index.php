@@ -20,22 +20,22 @@ margin-left: 1159px;">Admin Login</a>
   <div class="card-body">
     <h2 class="card-title">Welcome Students Management System</h2>
     
-    <form>
+    <form method="post" action="index.php">
 
     	<div class="form-group">
 
           <label for="exampleFormControlSelect1">Choose Students</label>
-          <select class="form-control" id="exampleFormControlSelect1">
-          <option>1st</option>
-          <option>2st</option>
-          <option>3st</option>
-          <option>4st</option>
+          <select class="form-control"  name="standerd">
+          <option value="1">1st</option>
+          <option value="2">2st</option>
+          <option value="3">3st</option>
+          <option value="4">4st</option>
           <option>5st</option>
            </select>
         </div>
         <div class="form-group">
           <label for="exampleFormControlInput1">Enter Rollno</label>
-           <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Roll Number">
+           <input type="number" class="form-control"  placeholder="Roll Number" name="rollno">
         </div>
         <input type="submit" name="submit" value="Show Info">
 
@@ -49,3 +49,22 @@ margin-left: 1159px;">Admin Login</a>
 
 </body>
 </html>
+
+
+<?php
+
+
+if(isset($_POST['submit']))
+
+ {
+  
+  $standerd = $_POST ['standerd'];
+  $rollno = $_POST ['rollno'];
+
+  include ('dbcon.php');
+  include('function.php');
+
+  showdetails($standerd, $rollno ); //function
+
+
+ } 
