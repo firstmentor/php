@@ -4,3 +4,7 @@
 
 
 echo str_shuffle("abcdefghijkl");
+
+echo"<pre>";
+
+print_r($a);

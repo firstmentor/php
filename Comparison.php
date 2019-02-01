@@ -10,6 +10,7 @@ if($a == $b){
 
 	echo "Test1 : a is not equal to b <br/>";
 }
+//
 
 if ($a>$b){
 	echo "Test2 : a is greater than to b <br/>";

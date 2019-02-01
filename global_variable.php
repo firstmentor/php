@@ -1,19 +1,19 @@
 <?php
 
-$Firstname = "pninfosys";
+$Firstname = "pninfosys"; //local variable
 $Lastname = "PHP ";
 
 function example(){
 
-	global $Firstname;
+	//global $Firstname;   global keyword
 	echo $Firstname;
 }
 
-function example2(){
+// function example2(){
 
-	echo $GLOBALS ['Lastname']. $GLOBALS ['Firstname'];
+// 	echo $GLOBALS ['Lastname']. $GLOBALS ['Firstname'];
 
-}
+// }
 
 
 ?>

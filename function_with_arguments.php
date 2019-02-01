@@ -7,7 +7,7 @@ function sum($a,$b,$c){
 	return $r;
 }
 $x =sum(12,11,12);
-echo $v;
+echo $x;
 
 $y = sum(30,30,30);
 echo $y;

@@ -3,7 +3,7 @@
 
 $con = mysqli_connect('localhost', 'root', '', 'school');
 
-if ($con){
+if ($con==true){
 	echo "connection Established Successfully";
 }
 else{

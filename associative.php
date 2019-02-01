@@ -2,7 +2,7 @@
 
 $students = array ('vikas'=>99, 'mohit'=>20,  'rohit'=>50);
 
-//print_r($students);
+print_r($students);
 echo $students['vikas'];
 
 
@@ -12,11 +12,11 @@ $name_one = array("Zack"=>"Zara", "Anthony"=>"Any",
                   "Raghav"=>"Ravina"); 
   
 // Second way to create an associative array 
-$name_two["zack"] = "zara"; 
-$name_two["anthony"] = "any"; 
-$name_two["ram"] = "rani"; 
-$name_two["salim"] = "sara"; 
-$name_two["raghav"] = "ravina"; 
+echo$name_two["zack"] = "zara"; 
+echo$name_two["anthony"] = "any"; 
+echo$name_two["ram"] = "rani"; 
+echo$name_two["salim"] = "sara"; 
+echo$name_two["raghav"] = "ravina"; 
   
 // Accessing the elements directly 
 echo "Accessing the elements directly:\n"; 

@@ -1,10 +1,11 @@
 <?php
 
-$x = 2;
+$x = 45;
 
 //echo ++$x . "</br>";
 
-echo $x++ . "<br/>";
+//echo $x++ . "<br/>";
+
 
 
 //echo $x;

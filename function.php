@@ -11,11 +11,21 @@ rjit();
 
 //////////////////////
 
-function funcGeek()  
+function pninfosys($user)  
 { 
-    echo "This is Geeks for Geeks"; 
+    echo "hello" .$user; 
 } 
   
 // Calling the function 
-funcGeek(); 
-  
+?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	
+	<?php pninfosys('pninfosys'); ?>
+
+</body>
+</html>

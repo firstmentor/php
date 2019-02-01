@@ -7,7 +7,7 @@ $college = array ('mpct'=>array('teacher'=>array('bca'=>3, 'mca'=>5), 'class'=>4
 
 
 
-
-//print_r($college);
-// echo $students['vikas']['age'];
- echo $college ['mpct']['teacher']['bca'];
+echo "<pre>";
+print_r($college);
+echo $students['vikas']['marks'];
+//echo $college ['mpct']['teacher']['bca'];

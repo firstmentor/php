@@ -19,6 +19,9 @@ $favorites = array(
 	) 
 ); 
 
+echo "<pre>";
+print_r($favorites);
+
 // Accessing elements 
 echo "Dave Punk email-id is: " . $favorites[0]["email"], "\n"; 
 echo "John Flinch mobile number is: " . $favorites[1]["mob"]; 
